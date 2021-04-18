@@ -1,0 +1,176 @@
+{
+  "platosFuertes": [
+    {
+      "nombre": "Hamburguesa",
+      "precio": 3500,
+      "tiempoProduccion": 12,
+      "espacioProduccion": 3,
+      "entero": true
+    },
+    {
+      "nombre": "Sandwich",
+      "precio": 2900,
+      "tiempoProduccion": 9,
+      "espacioProduccion": 3,
+      "entero": true
+    },
+    {
+      "nombre": "Pupusa",
+      "precio": 3000,
+      "tiempoProduccion": 8,
+      "espacioProduccion": 3,
+      "entero": true
+    },
+    {
+      "nombre": "Wrap",
+      "precio": 1800,
+      "tiempoProduccion": 8,
+      "espacioProduccion": 3,
+      "entero": false
+    }
+  ],
+  "acompanamientos": [
+    {
+      "nombre": "Palos de Mozzarella",
+      "precio": 1200,
+      "tiempoProduccion": 4,
+      "espacioProduccion": 2,
+      "salado": false
+    },
+    {
+      "nombre": "Papas francesas",
+      "precio": 1200,
+      "tiempoProduccion": 3,
+      "espacioProduccion": 2,
+      "salado": true
+    },
+    {
+      "nombre": "Ensalada",
+      "precio": 1300,
+      "tiempoProduccion": 4,
+      "espacioProduccion": 2,
+      "salado": false
+    },
+    {
+      "nombre": "Sopa",
+      "precio": 1200,
+      "tiempoProduccion": 6,
+      "espacioProduccion": 2,
+      "salado": true
+    }
+  ],
+  "bebidas": [
+    {
+      "nombre": "Cerveza",
+      "precio": 1100,
+      "tiempoProduccion": 2,
+      "espacioProduccion": 1,
+      "caliente": false,
+      "tamano": 330
+    },
+    {
+      "nombre": "Cafe",
+      "precio": 1300,
+      "tiempoProduccion": 10,
+      "espacioProduccion": 1,
+      "caliente": true,
+      "tamano": 200
+    },
+    {
+      "nombre": "Smoothie",
+      "precio": 1500,
+      "tiempoProduccion": 8,
+      "espacioProduccion": 1,
+      "caliente": false,
+      "tamano": 330
+    },
+    {
+      "nombre": "Jugo",
+      "precio": 800,
+      "tiempoProduccion": 2,
+      "espacioProduccion": 1,
+      "caliente": false,
+      "tamano": 250
+    }
+  ],
+  "combos": [
+    {
+      "nombre": "Combo de Hamburguesa",
+      "precio": 5220,
+      "platoFuerte": {
+        "nombre": "Hamburguesa",
+        "precio": 3500,
+        "tiempoProduccion": 12,
+        "espacioProduccion": 3,
+        "entero": true
+      },
+      "acompanamiento": {
+        "nombre": "Palos de Mozzarella",
+        "precio": 1200,
+        "tiempoProduccion": 4,
+        "espacioProduccion": 2,
+        "salado": false
+      },
+      "bebida": {
+        "nombre": "Cerveza",
+        "precio": 1100,
+        "tiempoProduccion": 2,
+        "espacioProduccion": 1,
+        "caliente": false,
+        "tamano": 330
+      }
+    },
+    {
+      "nombre": "Combo de Sandwich",
+      "precio": 5040,
+      "platoFuerte": {
+        "nombre": "Sandwich",
+        "precio": 2900,
+        "tiempoProduccion": 9,
+        "espacioProduccion": 3,
+        "entero": true
+      },
+      "acompanamiento": {
+        "nombre": "Papas francesas",
+        "precio": 1200,
+        "tiempoProduccion": 3,
+        "espacioProduccion": 2,
+        "salado": true
+      },
+      "bebida": {
+        "nombre": "Smoothie",
+        "precio": 1500,
+        "tiempoProduccion": 8,
+        "espacioProduccion": 1,
+        "caliente": false,
+        "tamano": 330
+      }
+    },
+    {
+      "nombre": "Combo de Wrap",
+      "precio": 3240,
+      "platoFuerte": {
+        "nombre": "Wrap",
+        "precio": 1800,
+        "tiempoProduccion": 8,
+        "espacioProduccion": 3,
+        "entero": false
+      },
+      "acompanamiento": {
+        "nombre": "Sopa",
+        "precio": 1200,
+        "tiempoProduccion": 6,
+        "espacioProduccion": 2,
+        "salado": true
+      },
+      "bebida": {
+        "nombre": "Jugo",
+        "precio": 800,
+        "tiempoProduccion": 2,
+        "espacioProduccion": 1,
+        "caliente": false,
+        "tamano": 250
+      }
+    }
+  ]
+}
